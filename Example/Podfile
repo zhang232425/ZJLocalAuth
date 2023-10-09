@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZJLocalAuth_Example' do
+  pod 'ZJLocalAuth', :path => '../'
+
+  target 'ZJLocalAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
